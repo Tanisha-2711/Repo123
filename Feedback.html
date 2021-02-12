@@ -1,0 +1,50 @@
+<<!DOCTYPE html>  
+<html> 
+<title>Feedback</title> 
+<head><style>
+body{
+    background-image: url("https://img.freepik.com/free-photo/multicolored-paper-background_23-2148182446.jpg?size=626&ext=jpg");
+  }  
+.container { padding: 50px; }  
+  
+input[type=text], input[type=password], 
+textarea { width: 100%;  padding: 10px;   margin: 5px 0 10px 0; }  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orangered;  
+  outline: none;}  
+ .registerbtn { background-color: white;  
+  padding: 14px 18px;  margin: 4px 0; }  
+
+</style>  
+</head>  
+<body>  
+ <center> <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/giving-feedback/how-to-give-feedback-header@2x.png" width="300" height="150"> </center> 
+<form>   <div class="container">  
+         <center>  <h1> Please give your Feedback here</h1> </center>  
+         <hr>  
+         <label> <b>Firstname</b> </label>   
+         <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+         <label><b>Lastname:</b> </label>    
+         <input type="text" name="lastname" placeholder="Lastname" size="15"required />     
+<div>  
+       <label><b>Gender :</b></label>  
+       <input type="radio" value="Male"   name="gender"> Male   
+       <input type="radio" value="Female" name="gender"> Female   
+       <input type="radio" value="Other"  name="gender"> Other  
+</div>  
+        <label><b>Phone :</b> </label>  
+        <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+               <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+        <label for="email"><B>Email</B></label>  
+               <input type="text" placeholder="Enter Email" name="email" required>  
+        <label for="psw"><b>Password</b></label>  
+              <input type="password" placeholder="Enter Password" name="psw" required>  
+        <label for="psw-repeat"><b>Re-type Password</b></label>  
+              <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+        <button type="submit" class="registerbtn"><h>Register</h></button>    
+</form> 
+<div class="container signin"> 
+     <p>Already have an account? <a href="usersignin.html">Sign in</a>.</p> 
+    </div>  
+</body>  
+</html>  
